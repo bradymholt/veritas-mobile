@@ -1,0 +1,851 @@
+TVeritas_Class
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Info.plist" Veritas_Class/Veritas_Class-Info.plist
+cPhaseScriptExecution "Copy www directory" /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Script-304B58A110DAC018002A0835.sh
+cCpResource Veritas_Class/Resources/icons/icon.png "build/Veritas Class.app/icon.png"
+cCpResource Veritas_Class/Resources/icons/icon-72.png "build/Veritas Class.app/icon-72.png"
+cCpResource Veritas_Class/config.xml "build/Veritas Class.app/config.xml"
+cCpResource Veritas_Class/Resources/icons/icon@2x.png "build/Veritas Class.app/icon@2x.png"
+cCopyStringsFile "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/en.lproj/Localizable.strings" Veritas_Class/Resources/en.lproj/Localizable.strings
+cCpResource Veritas_Class/Resources/Capture.bundle "build/Veritas Class.app/Capture.bundle"
+cCopyStringsFile "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/es.lproj/Localizable.strings" Veritas_Class/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/MainViewController.xib
+cCopyStringsFile "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/de.lproj/Localizable.strings" Veritas_Class/Resources/de.lproj/Localizable.strings
+cCopyStringsFile "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/se.lproj/Localizable.strings" Veritas_Class/Resources/se.lproj/Localizable.strings
+cCpResource Veritas_Class/Resources/icons/icon-72@2x.png "build/Veritas Class.app/icon-72@2x.png"
+cCpResource Veritas_Class/Resources/splash/Default-568h@2x.png "build/Veritas Class.app/Default-568h@2x.png"
+cCpResource Veritas_Class/Resources/splash/Default-Landscape@2x~ipad.png "build/Veritas Class.app/Default-Landscape@2x~ipad.png"
+cCpResource Veritas_Class/Resources/splash/Default-Landscape~ipad.png "build/Veritas Class.app/Default-Landscape~ipad.png"
+cCpResource Veritas_Class/Resources/splash/Default-Portrait@2x~ipad.png "build/Veritas Class.app/Default-Portrait@2x~ipad.png"
+cCpResource Veritas_Class/Resources/splash/Default-Portrait~ipad.png "build/Veritas Class.app/Default-Portrait~ipad.png"
+cCpResource Veritas_Class/Resources/splash/Default.png "build/Veritas Class.app/Default.png"
+cCpResource Veritas_Class/Resources/splash/Default@2x.png "build/Veritas Class.app/Default@2x.png"
+cProcessPCH /var/folders/lx/gl_qlfdx4f77kt54xs9pj08r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Veritas_Class-Prefix-crgcsxxyykheezhavoebweplmuco/Veritas_Class-Prefix.pch.pth Veritas_Class/Veritas_Class-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/main.o /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/MainViewController.o /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/AppDelegate.o /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Veritas Class" normal i386
+cGenerateDSYMFile "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app.dSYM" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Veritas Class"
+cTouch "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051DEF2770000000000000110
+t1373565559
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005108242600000000001EB540
+t1359488038
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000005108242500000000000C1030
+t1359488037
+s790576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c00000000510824250000000000193640
+t1359488037
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c000000005108242500000000000226E0
+t1359488037
+s141024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005108242600000000003D4DF0
+t1359488038
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000510824260000000000215DB0
+t1359488038
+s2186672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000510824260000000000228FE0
+t1359488038
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000051082426000000000009C590
+t1359488038
+s640400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000510824260000000000085620
+t1359488038
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005108242700000000003DDFA0
+t1359488039
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c000000005108242800000000002CFBE0
+t1359488040
+s2948064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000005108242900000000002DBA50
+t1359488041
+s2996816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005108242900000000000BCC20
+t1359488041
+s773152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c00000000510824290000000000030EB0
+t1359488041
+s200368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005108242A00000000001D5750
+t1359488042
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000005108242A000000000006CC50
+t1359488042
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005108242C0000000000AB6230
+t1359488044
+s11231792
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Default-568h@2x.png
+c0000000051DF26830000000000011A55
+t1373578883
+s72277
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Default-Landscape@2x~ipad.png
+c0000000051DF27B60000000000018A97
+t1373579190
+s101015
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Default-Landscape~ipad.png
+c0000000051DF27440000000000015CD6
+t1373579076
+s89302
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Default-Portrait@2x~ipad.png
+c0000000051DF27820000000000018E32
+t1373579138
+s101938
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Default-Portrait~ipad.png
+c0000000051DF27120000000000015B1E
+t1373579026
+s88862
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Default.png
+c0000000051DF1E79000000000000703A
+t1373576825
+s28730
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Default@2x.png
+c0000000051DF263B00000000000116E1
+t1373578811
+s71393
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/AppDelegate.h
+c0000000051DEF36800000000000005BF
+t1373565800
+s1471
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/AppDelegate.m
+c0000000051DEF36800000000000013E0
+t1373565800
+s5088
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/MainViewController.h
+c0000000051DEF36800000000000004D3
+t1373565800
+s1235
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/MainViewController.m
+c0000000051DEF368000000000000126E
+t1373565800
+s4718
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/MainViewController.xib
+c0000000051DEF3680000000000001759
+t1373565800
+s5977
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/Capture.bundle
+c0000000051DEF368000000000000030E
+t1373565800
+s782
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/de.lproj/Localizable.strings
+c0000000051DEF36800000000000004BF
+t1373565800
+s1215
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/en.lproj/Localizable.strings
+c0000000051DEF36800000000000004AA
+t1373565800
+s1194
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/es.lproj/Localizable.strings
+c0000000051DEF36800000000000004B7
+t1373565800
+s1207
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/icons/icon-72.png
+c0000000051DF00BF0000000000001D05
+t1373569215
+s7429
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/icons/icon-72@2x.png
+c0000000051DF0071000000000000367D
+t1373569137
+s13949
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/icons/icon.png
+c0000000051DF00D50000000000001841
+t1373569237
+s6209
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/icons/icon@2x.png
+c0000000051DF00A00000000000002D37
+t1373569184
+s11575
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/se.lproj/Localizable.strings
+c0000000051DEF36800000000000004AB
+t1373565800
+s1195
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default-568h@2x.png
+c0000000051DF26830000000000011A55
+t1373578883
+s72277
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default-568h@2x~iphone.png
+c0000000051DEF36800000000000085B1
+t1373565800
+s34225
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000051DF27B60000000000018A97
+t1373579190
+s101015
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default-Landscape~ipad.png
+c0000000051DF27440000000000015CD6
+t1373579076
+s89302
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000051DF27820000000000018E32
+t1373579138
+s101938
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default-Portrait~ipad.png
+c0000000051DF27120000000000015B1E
+t1373579026
+s88862
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default.png
+c0000000051DF1E79000000000000703A
+t1373576825
+s28730
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default@2x.png
+c0000000051DF263B00000000000116E1
+t1373578811
+s71393
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default@2x~iphone.png
+c0000000051DEF3680000000000007323
+t1373565800
+s29475
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default~iphone.png
+c0000000051DEF368000000000000289A
+t1373565800
+s10394
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Veritas_Class-Prefix.pch
+c0000000051DEF36800000000000003CB
+t1373565800
+s971
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/config.xml
+c0000000051DF6C840000000000000CFE
+t1373596804
+s3326
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/main.m
+c0000000051DEF368000000000000045F
+t1373565800
+s1119
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app
+t1373579544
+s884
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app.dSYM
+t1373574629
+s102
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Capture.bundle
+t1373574626
+s782
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Default-568h@2x.png
+t1373579341
+s72277
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Default-568h@2x~iphone.png
+t1373574626
+s34225
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Default-Landscape@2x~ipad.png
+t1373579341
+s101015
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Default-Landscape~ipad.png
+t1373579341
+s89302
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Default-Portrait@2x~ipad.png
+t1373579341
+s101938
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Default-Portrait~ipad.png
+t1373579341
+s88862
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Default.png
+t1373579341
+s28730
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Default@2x.png
+t1373579341
+s71393
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Default@2x~iphone.png
+t1373574626
+s29475
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Default~iphone.png
+t1373574626
+s10394
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Info.plist
+t1373579543
+s924
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/MainViewController.nib
+t1373574628
+s822
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/PkgInfo
+t2
+s0
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Veritas Class
+t1373574629
+s934788
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/config.xml
+t1373579544
+s3326
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/de.lproj/Localizable.strings
+t1373574626
+s280
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/en.lproj/Localizable.strings
+t1373574626
+s166
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/es.lproj/Localizable.strings
+t1373574626
+s334
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/icon-72.png
+t1373574626
+s7429
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/icon-72@2x.png
+t1373574626
+s13949
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/icon.png
+t1373574626
+s6209
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/icon@2x.png
+t1373574626
+s11575
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/se.lproj/Localizable.strings
+t1373574626
+s283
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/AppDelegate.o
+t1373574629
+s98244
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/MainViewController.o
+t1373574629
+s79620
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/Veritas Class.LinkFileList
+c0000000051DF15E100000000000001BC
+t1373574625
+s444
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/main.o
+t1373574629
+s3112
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Script-304B58A110DAC018002A0835.sh
+c0000000051DF15E1000000000000051A
+t1373574625
+s1306
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/include/Cordova/CDVAvailability.h
+c0000000051DF15DC0000000000000C47
+t1373574620
+s3143
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+c0000000051DF15DC00000000000008BA
+t1373574620
+s2234
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+c0000000051DF15DC0000000000000473
+t1373574620
+s1139
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+c0000000051DF15DC0000000000000501
+t1373574620
+s1281
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+c0000000051DF15DC0000000000000906
+t1373574620
+s2310
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/include/Cordova/CDVPlugin.h
+c0000000051DF15DC0000000000000892
+t1373574620
+s2194
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/include/Cordova/CDVPluginResult.h
+c0000000051DF15DC0000000000000C13
+t1373574620
+s3091
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+c0000000051DF15DC0000000000000408
+t1373574620
+s1032
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/include/Cordova/CDVViewController.h
+c0000000051DF15DC0000000000000B67
+t1373574620
+s2919
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/include/Cordova/CDVWhitelist.h
+c0000000051DF15DC00000000000004B4
+t1373574620
+s1204
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+c0000000051DF15DC00000000000003A0
+t1373574620
+s928
+
+N/Users/bholt/dev/veritas_mobile/platforms/ios/build/libCordova.a
+c0000000051DF15E1000000000036F4A0
+t1373574625
+s3601568
+
+N/var/folders/lx/gl_qlfdx4f77kt54xs9pj08r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Veritas_Class-Prefix-crgcsxxyykheezhavoebweplmuco/Veritas_Class-Prefix.pch.pth
+t1373574629
+s4680928
+
+NVeritas_Class/Veritas_Class-Info.plist
+c0000000051DF6C84000000000000068D
+t1373596804
+s1677
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies857d9708a48fb741^5c389808a48fb741^---0#1#0#--18"Check dependencies36"C7929E38-087D-4140-8EC9-E1E85AD266E8-
+
+CCompileC build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/AppDelegate.o /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395267429.246399
+e395267429.377964
+r1
+xCompileC
+xbuild/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/AppDelegate.o
+x/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
+o    self.viewController.useSplashScreen = YES;
+o                        ^
+o/Users/bholt/dev/veritas_mobile/platforms/ios/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o                                              ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/AppDelegate.m33523f654d8fb741^7efd60654d8fb741^-685"/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^/Users/bholt/dev/veritas_mobile/platforms/ios/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-395267429#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-395267429#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@100"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/CordovaLib/Classes/CDVViewController.h0000000000000000^45#46#45#46#1826#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@97"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/AppDelegate.m0000000000000000^79#24#79#24#2698#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@97"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/AppDelegate.m0000000000000000^3896"CompileC build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/AppDelegate.o Veritas_Class/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Veritas Class-generated-files.hmap" "-I/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Veritas Class-own-target-headers.hmap" "-I/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Veritas Class-all-target-headers.hmap" -iquote "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Veritas Class-project-headers.hmap" -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/include -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/usr/local/lib/include -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/UninstalledProducts/include -I/Users/bholt/dev/veritas_mobile/platforms/ios/build -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/DerivedSources/i386 -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/DerivedSources -F/Users/bholt/dev/veritas_mobile/platforms/ios/build -include /var/folders/lx/gl_qlfdx4f77kt54xs9pj08r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Veritas_Class-Prefix-crgcsxxyykheezhavoebweplmuco/Veritas_Class-Prefix.pch -MMD -MT dependencies -MF /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/AppDelegate.dia -c /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/AppDelegate.m -o /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/AppDelegate.o36"03A60834-F529-41A8-9BEA-24133429B9CD-
+
+CCompileC build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/MainViewController.o /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395267429.246913
+e395267429.381420
+r1
+xCompileC
+xbuild/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/MainViewController.o
+x/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/MainViewController.m726a3f654d8fb741^f4a361654d8fb741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/MainViewController.m0000000000000000^3938"CompileC build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/MainViewController.o Veritas_Class/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Veritas Class-generated-files.hmap" "-I/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Veritas Class-own-target-headers.hmap" "-I/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Veritas Class-all-target-headers.hmap" -iquote "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Veritas Class-project-headers.hmap" -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/include -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/usr/local/lib/include -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/UninstalledProducts/include -I/Users/bholt/dev/veritas_mobile/platforms/ios/build -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/DerivedSources/i386 -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/DerivedSources -F/Users/bholt/dev/veritas_mobile/platforms/ios/build -include /var/folders/lx/gl_qlfdx4f77kt54xs9pj08r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Veritas_Class-Prefix-crgcsxxyykheezhavoebweplmuco/Veritas_Class-Prefix.pch -MMD -MT dependencies -MF /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/MainViewController.dia -c /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/MainViewController.m -o /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/MainViewController.o36"A67E70BB-83AE-4AE1-9D2B-6A1ADB3C7B0B-
+
+CCompileC build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/main.o /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395267429.246432
+e395267429.285001
+r1
+xCompileC
+xbuild/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/main.o
+x/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/main.mcb843f654d8fb741^570649654d8fb741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/main.m0000000000000000^3838"CompileC build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/main.o Veritas_Class/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Veritas Class-generated-files.hmap" "-I/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Veritas Class-own-target-headers.hmap" "-I/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Veritas Class-all-target-headers.hmap" -iquote "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Veritas Class-project-headers.hmap" -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/include -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/usr/local/lib/include -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/UninstalledProducts/include -I/Users/bholt/dev/veritas_mobile/platforms/ios/build -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/DerivedSources/i386 -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/DerivedSources -F/Users/bholt/dev/veritas_mobile/platforms/ios/build -include /var/folders/lx/gl_qlfdx4f77kt54xs9pj08r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Veritas_Class-Prefix-crgcsxxyykheezhavoebweplmuco/Veritas_Class-Prefix.pch -MMD -MT dependencies -MF /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/main.dia -c /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/main.m -o /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/main.o36"21C9CFCC-2D24-4D8C-9D00-3F7101013401-
+
+CCompileXIB /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/MainViewController.xib
+s395267426.147969
+e395267428.696967
+r1
+xCompileXIB
+x/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/MainViewController.xib
+o2013-07-11 15:30:27.868 Interface Builder Cocoa Touch Tool[7381:f07] CFPreferences: user home directory at file://localhost/Users/bholt/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compiling /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/MainViewController.xiba70226624d8fb741^4b78b2644d8fb741^-237"2013-07-11 15:30:27.868 Interface Builder Cocoa Touch Tool[7381:f07] CFPreferences: user home directory at file://localhost/Users/bholt/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/MainViewController.xib0000000000000000^1214"CompileXIB Veritas_Class/Classes/MainViewController.xib    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/MainViewController.nib" /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"A6B84B58-1862-4D11-B923-C5251E56CC29-
+
+CCopyStringsFile "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/de.lproj/Localizable.strings" Veritas_Class/Resources/de.lproj/Localizable.strings
+s395267426.158199
+e395267426.162362
+r1
+xCopyStringsFile
+x/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/de.lproj/Localizable.strings
+xVeritas_Class/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy Veritas_Class/Resources/de.lproj/Localizable.stringsa9a228624d8fb741^c79e29624d8fb741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/de.lproj/Localizable.strings0000000000000000^879"CopyStringsFile "build/Veritas Class.app/de.lproj/Localizable.strings" Veritas_Class/Resources/de.lproj/Localizable.strings    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/de.lproj" -- Veritas_Class/Resources/de.lproj/Localizable.strings36"FDC8A436-F666-4E1A-BEB0-3A86197F1392-
+
+CCopyStringsFile "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/en.lproj/Localizable.strings" Veritas_Class/Resources/en.lproj/Localizable.strings
+s395267426.145793
+e395267426.156683
+r1
+xCopyStringsFile
+x/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/en.lproj/Localizable.strings
+xVeritas_Class/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy Veritas_Class/Resources/en.lproj/Localizable.stringse67825624d8fb741^454928624d8fb741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/en.lproj/Localizable.strings0000000000000000^879"CopyStringsFile "build/Veritas Class.app/en.lproj/Localizable.strings" Veritas_Class/Resources/en.lproj/Localizable.strings    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/en.lproj" -- Veritas_Class/Resources/en.lproj/Localizable.strings36"793EFB26-B3D5-4B73-A449-BE71B7FF9B8C-
+
+CCopyStringsFile "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/es.lproj/Localizable.strings" Veritas_Class/Resources/es.lproj/Localizable.strings
+s395267426.147963
+e395267426.159567
+r1
+xCopyStringsFile
+x/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/es.lproj/Localizable.strings
+xVeritas_Class/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy Veritas_Class/Resources/es.lproj/Localizable.strings6c0426624d8fb741^40d928624d8fb741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/es.lproj/Localizable.strings0000000000000000^879"CopyStringsFile "build/Veritas Class.app/es.lproj/Localizable.strings" Veritas_Class/Resources/es.lproj/Localizable.strings    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/es.lproj" -- Veritas_Class/Resources/es.lproj/Localizable.strings36"ED10AF28-C12D-4F0F-BFAE-D7173CE2562E-
+
+CCopyStringsFile "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/se.lproj/Localizable.strings" Veritas_Class/Resources/se.lproj/Localizable.strings
+s395267426.160822
+e395267426.166989
+r1
+xCopyStringsFile
+x/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/se.lproj/Localizable.strings
+xVeritas_Class/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy Veritas_Class/Resources/se.lproj/Localizable.stringsaf5e29624d8fb741^55bf2a624d8fb741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/se.lproj/Localizable.strings0000000000000000^879"CopyStringsFile "build/Veritas Class.app/se.lproj/Localizable.strings" Veritas_Class/Resources/se.lproj/Localizable.strings    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/se.lproj" -- Veritas_Class/Resources/se.lproj/Localizable.strings36"6C298C72-47F5-4ED4-9136-8BFC35E9440E-
+
+CCpResource Default-568h@2x.png "build/Veritas Class.app/Default-568h@2x.png"
+s395272141.868621
+e395272141.874970
+r1
+xCpResource
+xDefault-568h@2x.png
+xbuild/Veritas Class.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/Veritas Class.app/Default-568h@2x.pnge692decd5f8fb741^cd92e0cd5f8fb741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/Default-568h@2x.png000000000080d041^859"CpResource "Default-568h@2x.png" "build/Veritas Class.app/Default-568h@2x.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/bholt/dev/veritas_mobile/platforms/ios/Default-568h@2x.png" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"C9496933-1010-4F95-833D-166D0D9AD93C-
+
+CCpResource Default-Landscape@2x~ipad.png "build/Veritas Class.app/Default-Landscape@2x~ipad.png"
+s395272141.877548
+e395272141.890271
+r1
+xCpResource
+xDefault-Landscape@2x~ipad.png
+xbuild/Veritas Class.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Veritas Class.app/Default-Landscape@2x~ipad.pnge0d7e0cd5f8fb741^5af3e3cd5f8fb741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/Default-Landscape@2x~ipad.png0000000000000000^889"CpResource "Default-Landscape@2x~ipad.png" "build/Veritas Class.app/Default-Landscape@2x~ipad.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/bholt/dev/veritas_mobile/platforms/ios/Default-Landscape@2x~ipad.png" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"0B572C94-A457-4CFA-8495-7141751640EA-
+
+CCpResource Default-Landscape~ipad.png "build/Veritas Class.app/Default-Landscape~ipad.png"
+s395272141.873434
+e395272141.883043
+r1
+xCpResource
+xDefault-Landscape~ipad.png
+xbuild/Veritas Class.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Veritas Class.app/Default-Landscape~ipad.png38bddfcd5f8fb741^ce18e2cd5f8fb741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/Default-Landscape~ipad.png0000000000000000^880"CpResource "Default-Landscape~ipad.png" "build/Veritas Class.app/Default-Landscape~ipad.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/bholt/dev/veritas_mobile/platforms/ios/Default-Landscape~ipad.png" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"C0413A34-4E54-4E5B-9C4F-E7975B825018-
+
+CCpResource Default-Portrait@2x~ipad.png "build/Veritas Class.app/Default-Portrait@2x~ipad.png"
+s395272141.876483
+e395272141.889695
+r1
+xCpResource
+xDefault-Portrait@2x~ipad.png
+xbuild/Veritas Class.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Veritas Class.app/Default-Portrait@2x~ipad.png9887e0cd5f8fb741^07d0e3cd5f8fb741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/Default-Portrait@2x~ipad.png0000000000000000^886"CpResource "Default-Portrait@2x~ipad.png" "build/Veritas Class.app/Default-Portrait@2x~ipad.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/bholt/dev/veritas_mobile/platforms/ios/Default-Portrait@2x~ipad.png" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"5A98B8BA-0A0B-4BBE-8B8B-5B7266003162-
+
+CCpResource Default-Portrait~ipad.png "build/Veritas Class.app/Default-Portrait~ipad.png"
+s395272141.869117
+e395272141.878934
+r1
+xCpResource
+xDefault-Portrait~ipad.png
+xbuild/Veritas Class.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Veritas Class.app/Default-Portrait~ipad.png4a9bdecd5f8fb741^d21ce1cd5f8fb741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/Default-Portrait~ipad.png0000000000000000^877"CpResource "Default-Portrait~ipad.png" "build/Veritas Class.app/Default-Portrait~ipad.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/bholt/dev/veritas_mobile/platforms/ios/Default-Portrait~ipad.png" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"E685956E-200A-403E-BE9F-60E0DDD9BBFA-
+
+CCpResource Default.png "build/Veritas Class.app/Default.png"
+s395272141.865038
+e395272141.870794
+r1
+xCpResource
+xDefault.png
+xbuild/Veritas Class.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/Veritas Class.app/Default.png624cdecd5f8fb741^ac1fdfcd5f8fb741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/Default.png000000000080d041^831"CpResource Default.png "build/Veritas Class.app/Default.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/bholt/dev/veritas_mobile/platforms/ios/Default.png "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"BE2EC8C9-900A-47E8-B9A0-F3D8190DF9B1-
+
+CCpResource Default@2x.png "build/Veritas Class.app/Default@2x.png"
+s395272141.865123
+e395272141.876182
+r1
+xCpResource
+xDefault@2x.png
+xbuild/Veritas Class.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/Veritas Class.app/Default@2x.png6895ddcd5f8fb741^fe9ae0cd5f8fb741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/Default@2x.png000000000080d041^844"CpResource "Default@2x.png" "build/Veritas Class.app/Default@2x.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/bholt/dev/veritas_mobile/platforms/ios/Default@2x.png" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"F6AB0849-0B7B-451D-A523-ABB13DA788CD-
+
+CCpResource Veritas_Class/Resources/Capture.bundle "build/Veritas Class.app/Capture.bundle"
+s395267426.145017
+e395267426.214667
+r1
+xCpResource
+xVeritas_Class/Resources/Capture.bundle
+xbuild/Veritas Class.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/Veritas Class.app/Capture.bundle524525624d8fb741^1af736624d8fb741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/Capture.bundle000000000080d041^888"CpResource Veritas_Class/Resources/Capture.bundle "build/Veritas Class.app/Capture.bundle"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/Capture.bundle "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"C81209D5-C045-4793-9070-D11775FE7647-
+
+CCpResource Veritas_Class/Resources/icons/icon-72.png "build/Veritas Class.app/icon-72.png"
+s395267426.142014
+e395267426.144725
+r1
+xCpResource
+xVeritas_Class/Resources/icons/icon-72.png
+xbuild/Veritas Class.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/Veritas Class.app/icon-72.pngf37624624d8fb741^a60b25624d8fb741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/icon-72.png000000000080d041^891"CpResource Veritas_Class/Resources/icons/icon-72.png "build/Veritas Class.app/icon-72.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/icons/icon-72.png "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"85BDCC3A-55CF-4756-927F-CC61E6A73CC7-
+
+CCpResource Veritas_Class/Resources/icons/icon-72@2x.png "build/Veritas Class.app/icon-72@2x.png"
+s395267426.201978
+e395267426.206472
+r1
+xCpResource
+xVeritas_Class/Resources/icons/icon-72@2x.png
+xbuild/Veritas Class.app/icon-72@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/Veritas Class.app/icon-72@2x.png321f34624d8fb741^331a35624d8fb741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/icon-72@2x.png000000000080d041^904"CpResource "Veritas_Class/Resources/icons/icon-72@2x.png" "build/Veritas Class.app/icon-72@2x.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/icons/icon-72@2x.png" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"1ACCCEE4-59CF-427F-BB98-BC6CF2AEDA0F-
+
+CCpResource Veritas_Class/Resources/icons/icon.png "build/Veritas Class.app/icon.png"
+s395267426.142607
+e395267426.146603
+r1
+xCpResource
+xVeritas_Class/Resources/icons/icon.png
+xbuild/Veritas Class.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/Veritas Class.app/icon.png179d24624d8fb741^c68725624d8fb741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/icon.png000000000080d041^882"CpResource Veritas_Class/Resources/icons/icon.png "build/Veritas Class.app/icon.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/icons/icon.png "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"64E3A4A1-A31D-40E3-ABF8-B0C2B0C44600-
+
+CCpResource Veritas_Class/Resources/icons/icon@2x.png "build/Veritas Class.app/icon@2x.png"
+s395267426.142921
+e395267426.147536
+r1
+xCpResource
+xVeritas_Class/Resources/icons/icon@2x.png
+xbuild/Veritas Class.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/Veritas Class.app/icon@2x.png63b624624d8fb741^46cf25624d8fb741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/icon@2x.png000000000080d041^895"CpResource "Veritas_Class/Resources/icons/icon@2x.png" "build/Veritas Class.app/icon@2x.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/icons/icon@2x.png" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"816DF9AA-96DF-4FCA-BE1E-704802F473F0-
+
+CCpResource Veritas_Class/Resources/splash/Default-568h@2x.png "build/Veritas Class.app/Default-568h@2x.png"
+s395289608.903331
+e395289608.906807
+r1
+xCpResource
+xVeritas_Class/Resources/splash/Default-568h@2x.png
+xbuild/Veritas Class.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/Veritas Class.app/Default-568h@2x.png0261e708a48fb741^a73ee808a48fb741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/Default-568h@2x.png0000000000000000^921"CpResource "Veritas_Class/Resources/splash/Default-568h@2x.png" "build/Veritas Class.app/Default-568h@2x.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default-568h@2x.png" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"18E1906A-9980-4EB6-83C4-7E6FD858721E-
+
+CCpResource Veritas_Class/Resources/splash/Default-568h@2x~iphone.png "build/Veritas Class.app/Default-568h@2x~iphone.png"
+s395267426.200189
+e395267426.204326
+r1
+xCpResource
+xVeritas_Class/Resources/splash/Default-568h@2x~iphone.png
+xbuild/Veritas Class.app/Default-568h@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Veritas Class.app/Default-568h@2x~iphone.pngaa6133624d8fb741^b54e34624d8fb741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/Default-568h@2x~iphone.png000000000080d041^942"CpResource "Veritas_Class/Resources/splash/Default-568h@2x~iphone.png" "build/Veritas Class.app/Default-568h@2x~iphone.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default-568h@2x~iphone.png" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"A0291A0C-15C5-4CEA-B49C-696075588E8D-
+
+CCpResource Veritas_Class/Resources/splash/Default-Landscape@2x~ipad.png "build/Veritas Class.app/Default-Landscape@2x~ipad.png"
+s395289608.903340
+e395289608.905541
+r1
+xCpResource
+xVeritas_Class/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/Veritas Class.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Veritas Class.app/Default-Landscape@2x~ipad.png215ae708a48fb741^bbd1e708a48fb741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/Default-Landscape@2x~ipad.png0000000000000000^951"CpResource "Veritas_Class/Resources/splash/Default-Landscape@2x~ipad.png" "build/Veritas Class.app/Default-Landscape@2x~ipad.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default-Landscape@2x~ipad.png" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"07A21CA7-790C-45BC-B31E-1511FB4FDDDB-
+
+CCpResource Veritas_Class/Resources/splash/Default-Landscape~ipad.png "build/Veritas Class.app/Default-Landscape~ipad.png"
+s395289608.903380
+e395289608.908459
+r1
+xCpResource
+xVeritas_Class/Resources/splash/Default-Landscape~ipad.png
+xbuild/Veritas Class.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Veritas Class.app/Default-Landscape~ipad.png7861e708a48fb741^e690e808a48fb741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/Default-Landscape~ipad.png0000000000000000^942"CpResource "Veritas_Class/Resources/splash/Default-Landscape~ipad.png" "build/Veritas Class.app/Default-Landscape~ipad.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default-Landscape~ipad.png" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"94452FD2-61E6-493C-917E-D74EE8D6253F-
+
+CCpResource Veritas_Class/Resources/splash/Default-Portrait@2x~ipad.png "build/Veritas Class.app/Default-Portrait@2x~ipad.png"
+s395289608.904502
+e395289608.909494
+r1
+xCpResource
+xVeritas_Class/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/Veritas Class.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Veritas Class.app/Default-Portrait@2x~ipad.pngcea6e708a48fb741^bbd4e808a48fb741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/Default-Portrait@2x~ipad.png0000000000000000^948"CpResource "Veritas_Class/Resources/splash/Default-Portrait@2x~ipad.png" "build/Veritas Class.app/Default-Portrait@2x~ipad.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default-Portrait@2x~ipad.png" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"4A9F5FAF-D60B-4AB5-916E-EEE9DFEEFD13-
+
+CCpResource Veritas_Class/Resources/splash/Default-Portrait~ipad.png "build/Veritas Class.app/Default-Portrait~ipad.png"
+s395289608.906744
+e395289608.910675
+r1
+xCpResource
+xVeritas_Class/Resources/splash/Default-Portrait~ipad.png
+xbuild/Veritas Class.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Veritas Class.app/Default-Portrait~ipad.png1c43e808a48fb741^7522e908a48fb741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/Default-Portrait~ipad.png0000000000000000^939"CpResource "Veritas_Class/Resources/splash/Default-Portrait~ipad.png" "build/Veritas Class.app/Default-Portrait~ipad.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default-Portrait~ipad.png" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"7EB20674-9585-447E-9DD1-DB87BF6A4811-
+
+CCpResource Veritas_Class/Resources/splash/Default.png "build/Veritas Class.app/Default.png"
+s395289608.907973
+e395289608.911663
+r1
+xCpResource
+xVeritas_Class/Resources/splash/Default.png
+xbuild/Veritas Class.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/Veritas Class.app/Default.png3f90e808a48fb741^9e62e908a48fb741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/Default.png0000000000000000^893"CpResource Veritas_Class/Resources/splash/Default.png "build/Veritas Class.app/Default.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default.png "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"A3CCA1EE-3A8C-4B5B-91EF-7B5C763CD9F6-
+
+CCpResource Veritas_Class/Resources/splash/Default@2x.png "build/Veritas Class.app/Default@2x.png"
+s395289608.909593
+e395289608.912905
+r1
+xCpResource
+xVeritas_Class/Resources/splash/Default@2x.png
+xbuild/Veritas Class.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/Veritas Class.app/Default@2x.pngbff2e808a48fb741^e1b3e908a48fb741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/Default@2x.png0000000000000000^906"CpResource "Veritas_Class/Resources/splash/Default@2x.png" "build/Veritas Class.app/Default@2x.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default@2x.png" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"31939062-94D2-4FC6-A369-DD1FF96D1822-
+
+CCpResource Veritas_Class/Resources/splash/Default@2x~iphone.png "build/Veritas Class.app/Default@2x~iphone.png"
+s395267426.174941
+e395267426.184965
+r1
+xCpResource
+xVeritas_Class/Resources/splash/Default@2x~iphone.png
+xbuild/Veritas Class.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Veritas Class.app/Default@2x~iphone.pngffeb2c624d8fb741^d2e230624d8fb741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/Default@2x~iphone.png000000000080d041^927"CpResource "Veritas_Class/Resources/splash/Default@2x~iphone.png" "build/Veritas Class.app/Default@2x~iphone.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default@2x~iphone.png" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"979FA84A-E7B8-470B-A843-B36C4F942948-
+
+CCpResource Veritas_Class/Resources/splash/Default~iphone.png "build/Veritas Class.app/Default~iphone.png"
+s395267426.180892
+e395267426.200000
+r1
+xCpResource
+xVeritas_Class/Resources/splash/Default~iphone.png
+xbuild/Veritas Class.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/Veritas Class.app/Default~iphone.png95472f624d8fb741^e0a233624d8fb741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/Default~iphone.png000000000080d041^918"CpResource "Veritas_Class/Resources/splash/Default~iphone.png" "build/Veritas Class.app/Default~iphone.png"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Resources/splash/Default~iphone.png" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"19ED56F7-7E39-4376-8CB9-50680D50163D-
+
+CCpResource Veritas_Class/config.xml "build/Veritas Class.app/config.xml"
+s395289608.899653
+e395289608.902035
+r1
+xCpResource
+xVeritas_Class/config.xml
+xbuild/Veritas Class.app/config.xml
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/Veritas Class.app/config.xml9c6de608a48fb741^a2ebe608a48fb741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app/config.xml0000000000000000^856"CpResource Veritas_Class/config.xml "build/Veritas Class.app/config.xml"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/config.xml "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"299B6108-992D-4524-9DF3-0788A990AECE-
+
+CGenerateDSYMFile "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app.dSYM" "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Veritas Class"
+s395267429.630176
+e395267429.832804
+r1
+xGenerateDSYMFile
+x/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app.dSYM
+x/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Veritas Class
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Generate /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app.dSYM7577a1654d8fb741^1f4dd5654d8fb741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas%20Class.app.dSYM000000000080d041^882"GenerateDSYMFile "build/Veritas Class.app.dSYM" "build/Veritas Class.app/Veritas Class"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Veritas Class" -o "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app.dSYM"36"F2E3C268-3F18-466F-ACAD-84E0456CF3E2-
+
+CLd "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Veritas Class" normal i386
+s395267429.387871
+e395267429.623338
+r1
+xLd
+x/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Veritas Class
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Link /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Veritas Class4e7a63654d8fb741^f4a99f654d8fb741^---0#0#0#--2061"Ld "build/Veritas Class.app/Veritas Class" normal i386    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/bholt/dev/veritas_mobile/platforms/ios/build -F/Users/bholt/dev/veritas_mobile/platforms/ios/build -filelist "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/Veritas Class.LinkFileList" -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/bholt/dev/veritas_mobile/platforms/ios/build/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework CoreLocation -framework ImageIO -framework OpenAL -framework AssetsLibrary /Users/bholt/dev/veritas_mobile/platforms/ios/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -framework CoreLocation -o "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Veritas Class"36"82CE079B-90B7-49ED-A56A-12BC81010350-
+
+CPhaseScriptExecution "Copy www directory" /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Script-304B58A110DAC018002A0835.sh
+s395289608.614783
+e395289608.891483
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.254s
+ouser	0m0.107s
+osys	0m0.131s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'a22a9e08a48fb741^8736e408a48fb741^-42"real	0m0.254suser	0m0.107ssys	0m0.131s3(21%IDEActivityLogMessage2@14"real	0m0.254s-395289608#1#14#-0#-----2@14"user	0m0.107s-395289608#15#14#-0#-----2@13"sys	0m0.131s-395289608#29#13#-0#-----0#0#0#--21324"PhaseScriptExecution "Copy www directory" build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Script-304B58A110DAC018002A0835.sh    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER bholt    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build    setenv BUILD_ROOT /Users/bholt/dev/veritas_mobile/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build    setenv CACHE_ROOT /var/folders/lx/gl_qlfdx4f77kt54xs9pj08r0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/lx/gl_qlfdx4f77kt54xs9pj08r0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/lx/gl_qlfdx4f77kt54xs9pj08r0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build    setenv CONFIGURATION_TEMP_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH "Veritas Class.app"    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/bholt/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH "Veritas Class.app/English.lproj/Documentation"    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Veritas_Class.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME "Veritas Class.app.dSYM"    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/bholt/dev/veritas_mobile/platforms/ios/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH "Veritas Class.app/Executables"    setenv EXECUTABLE_FOLDER_PATH "Veritas Class.app"    setenv EXECUTABLE_NAME "Veritas Class"    setenv EXECUTABLE_PATH "Veritas Class.app/Veritas Class"    setenv FILE_LIST /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH "Veritas Class.app/Frameworks"    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/bholt/dev/veritas_mobile/platforms/ios/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME "Veritas Class.app"    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Veritas_Class/Veritas_Class-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/bholt/dev/veritas_mobile/platforms/ios/build/include\" \"/Users/bholt/dev/veritas_mobile/platforms/ios/build/usr/local/lib/include\" \"/Users/bholt/dev/veritas_mobile/platforms/ios/build/UninstalledProducts/include\" \"/Users/bholt/dev/veritas_mobile/platforms/ios/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Veritas_Class/Veritas_Class-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH "Veritas Class.app/Info.plist"    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH "Veritas Class.app/English.lproj/InfoPlist.strings"    setenv INSTALL_DIR /tmp/Veritas_Class.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER bholt    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Veritas_Class.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH "Veritas Class.app/Java"    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Veritas Class-LinkMap-normal-i386.txt"    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/bholt/dev/veritas_mobile/platforms/ios/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal/i386/Veritas Class.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH "Veritas Class.app/English.lproj"    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12E55    setenv MAC_OS_X_VERSION_ACTUAL 1084    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0804    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Objects-normal    setenv OBJROOT /Users/bholt/dev/veritas_mobile/platforms/ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/bholt/dev/veritas_mobile/platforms/ios/build/libCordova.a -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH "Veritas Class.app/pbdevelopment.plist"    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/PkgInfo    setenv PKGINFO_PATH "Veritas Class.app/PkgInfo"    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH "Veritas Class.app/PlugIns"    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH "Veritas Class.app/PrivateHeaders"    setenv PRODUCT_NAME "Veritas Class"    setenv PRODUCT_SETTINGS_PATH /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Veritas_Class-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Veritas_Class    setenv PROJECT_DERIVED_FILE_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/DerivedSources    setenv PROJECT_DIR /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PROJECT_FILE_PATH /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class.xcodeproj    setenv PROJECT_NAME Veritas_Class    setenv PROJECT_TEMP_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build    setenv PROJECT_TEMP_ROOT /Users/bholt/dev/veritas_mobile/platforms/ios/build    setenv PUBLIC_HEADERS_FOLDER_PATH "Veritas Class.app/Headers"    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/bholt/dev/veritas_mobile/platforms/ios/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH "Veritas Class.app/Scripts"    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH "Veritas Class.app/SharedFrameworks"    setenv SHARED_PRECOMPS_DIR /var/folders/lx/gl_qlfdx4f77kt54xs9pj08r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH "Veritas Class.app/SharedSupport"    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/bholt/dev/veritas_mobile/platforms/ios    setenv SRCROOT /Users/bholt/dev/veritas_mobile/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/bholt/dev/veritas_mobile/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME Veritas_Class    setenv TARGET_BUILD_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build    setenv TARGET_NAME Veritas_Class    setenv TARGET_TEMP_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build    setenv TEMP_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build    setenv TEMP_FILES_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build    setenv TEMP_FILE_DIR /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build    setenv TEMP_ROOT /Users/bholt/dev/veritas_mobile/platforms/ios/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH "Veritas Class.app"    setenv UNSTRIPPED_PRODUCT NO    setenv USER bholt    setenv USER_APPS_DIR /Users/bholt/Applications    setenv USER_LIBRARY_DIR /Users/bholt/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH "Veritas Class.app/version.plist"    setenv VERSION_INFO_BUILDER bholt    setenv VERSION_INFO_FILE "Veritas Class_vers.c"    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Veritas Class  PROJECT:Veritas_Class-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME "Veritas Class.app"    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1503    setenv XCODE_VERSION_ACTUAL 0463    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Script-304B58A110DAC018002A0835.sh36"7F24B304-F63A-4FE9-A7E1-8000A6F1A8EE-
+
+CProcessInfoPlistFile "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Info.plist" Veritas_Class/Veritas_Class-Info.plist
+s395289608.602849
+e395289608.606361
+r1
+xProcessInfoPlistFile
+x/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Info.plist
+xVeritas_Class/Veritas_Class-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Process Veritas_Class/Veritas_Class-Info.plist54729a08a48fb741^c1399b08a48fb741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Veritas_Class-Info.plist0000000000000000^933"ProcessInfoPlistFile "build/Veritas Class.app/Info.plist" Veritas_Class/Veritas_Class-Info.plist    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    builtin-infoPlistUtility Veritas_Class/Veritas_Class-Info.plist -genpkginfo "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app/Info.plist"36"FEE5C1C7-F80D-40DB-900A-C754DC8B9BD8-
+
+CProcessPCH /var/folders/lx/gl_qlfdx4f77kt54xs9pj08r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Veritas_Class-Prefix-crgcsxxyykheezhavoebweplmuco/Veritas_Class-Prefix.pch.pth Veritas_Class/Veritas_Class-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395267428.722561
+e395267429.239387
+r1
+xProcessPCH
+x/var/folders/lx/gl_qlfdx4f77kt54xs9pj08r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Veritas_Class-Prefix-crgcsxxyykheezhavoebweplmuco/Veritas_Class-Prefix.pch.pth
+xVeritas_Class/Veritas_Class-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile Veritas_Class/Veritas_Class-Prefix.pcha436b9644d8fb741^ba4c3d654d8fb741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Veritas_Class-Prefix.pch0000000000000000^3875"ProcessPCH /var/folders/lx/gl_qlfdx4f77kt54xs9pj08r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Veritas_Class-Prefix-crgcsxxyykheezhavoebweplmuco/Veritas_Class-Prefix.pch.pth Veritas_Class/Veritas_Class-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Veritas Class-generated-files.hmap" "-I/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Veritas Class-own-target-headers.hmap" "-I/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Veritas Class-all-target-headers.hmap" -iquote "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/Veritas Class-project-headers.hmap" -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/include -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/usr/local/lib/include -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/UninstalledProducts/include -I/Users/bholt/dev/veritas_mobile/platforms/ios/build -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/DerivedSources/i386 -I/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas_Class.build/Debug-iphonesimulator/Veritas_Class.build/DerivedSources -F/Users/bholt/dev/veritas_mobile/platforms/ios/build --serialize-diagnostics /var/folders/lx/gl_qlfdx4f77kt54xs9pj08r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Veritas_Class-Prefix-crgcsxxyykheezhavoebweplmuco/Veritas_Class-Prefix.pch.dia -c /Users/bholt/dev/veritas_mobile/platforms/ios/Veritas_Class/Veritas_Class-Prefix.pch -o /var/folders/lx/gl_qlfdx4f77kt54xs9pj08r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Veritas_Class-Prefix-crgcsxxyykheezhavoebweplmuco/Veritas_Class-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/lx/gl_qlfdx4f77kt54xs9pj08r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Veritas_Class-Prefix-crgcsxxyykheezhavoebweplmuco/Veritas_Class-Prefix.pch.d36"705FF81D-1E79-4E9F-9D3D-172D8F1EB804-
+
+CTouch "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"
+s395289608.950273
+e395289608.956227
+r1
+xTouch
+x/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Touch /Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.appc45ff308a48fb741^1dcaf408a48fb741^---0#0#0#--654"Touch "build/Veritas Class.app"    cd /Users/bholt/dev/veritas_mobile/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/bholt/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/bholt/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/bholt/dev/android/sdk/platform-tools:/Users/bholt/dev/android/sdk/tools:/usr/local/share/npm/bin/"    /usr/bin/touch -c "/Users/bholt/dev/veritas_mobile/platforms/ios/build/Veritas Class.app"36"1F3378AB-5C50-41F8-B7FB-D06225326540-
+
